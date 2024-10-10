@@ -1,0 +1,95 @@
+#header{
+    background: url(Image/FPTPOLY.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+}
+#top-menu{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: orangered;
+    border-bottom-left-radius: 30px;
+    font-variant: small-caps;
+    box-shadow: 0 0 10px white;
+}
+#top-menu>li{
+    display: inline-block;
+}
+#top-menu>li>a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+#top-menu>li>a:hover{
+    text-decoration: none;
+    color: gray;
+}
+#site-name{
+    position: absolute;
+    bottom: 48px;
+    left: 10px;
+}
+#site-name>h1{
+    color: #FFF;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant: small-caps;
+    text-shadow: 0 0 7px orangered;
+    border-bottom: 2px dotted orangered;
+    margin: 0;
+    font-size: 80px;
+}
+#site-name>p{
+    font-variant: small-caps;
+    color: orangered;
+    text-shadow: 0 0 5px black;
+    margin: 0;
+    font-size: 40px;
+}
+#menu-section{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color:orangered;
+    width: 100%;
+}
+#menu-section>li{
+    display: inline-block;
+}
+#menu-section>li>a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+#menu-section>li>a:hover{
+    text-decoration: none;
+    color: gray;
+}
+#menu-section-right{
+    background-color: orangered;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+#menu-section-right>li{
+    display: inline-block;
+}
+#menu-section-right>li>a{
+    text-decoration: none;
+    color: #FFF;
+    padding: 10px;
+    display: block;
+}
+#menu-section-right>li>a:hover{
+    text-decoration: none;
+    color: gray;
+}
